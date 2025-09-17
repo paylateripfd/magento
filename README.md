@@ -10,7 +10,7 @@ When you integrate Creditea as a payment method, offer your customers the possib
 ### Instalation
 
 ```
-composer require paylateripfd/magento
+composer require ipfdigital/magento
 
 php bin/magento module:enable Creditea_Magento2
 php bin/magento setup:upgrade
@@ -22,7 +22,7 @@ php bin/magento cache:flush
 ### Update
 
 ```
-composer update paylateripfd/magento
+composer update ipfdigital/magento
 
 php bin/magento module:enable Creditea_Magento2
 php bin/magento setup:upgrade
@@ -35,7 +35,7 @@ php bin/magento cache:flush
 
 ```
 php bin/magento module:disbale Creditea_Magento2
-composer remove paylateripfd/magento
+composer remove ipfdigital/magento
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
